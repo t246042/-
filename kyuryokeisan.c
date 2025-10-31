@@ -17,7 +17,7 @@ int main(void)
     
     int kyuryo;
     kyuryo = a * (b + 0.25 * c);
-    printf("今月は%d円稼ぎました", kyuryo);
+    printf("今月は%d円稼ぎました\n", kyuryo);
     if (kyuryo >= 85833)
     {
         printf("たくさん稼ぎましたね！！\nでも扶養が外れないように気を付けましょう");
